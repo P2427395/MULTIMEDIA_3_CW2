@@ -1,0 +1,382 @@
+/* this is infomation on the the background of the homepage*/
+body {
+    background-color:#4f5b66;
+    background-repeat: no-repeat;
+    font-family: century;
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+}
+
+#background-img{
+    background-image: url(img/f1_2010.jpg);
+}
+
+/*title text box*/
+header{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 28px;
+    border-radius: 10px;
+}
+
+
+.container {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    background-color: aliceblue;
+    color: black;
+    align-self: center;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    object-fit: contain;
+
+}
+
+
+/*continue button*/
+.button1{
+    background-color: red;
+    padding: 15px;
+    align-items: center;
+    border-radius: 5px;
+    align-self: center;
+    object-position: center;
+    color: white;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    
+}
+
+/*dark theme button*/
+.button2{
+    margin-top: 25px;
+    margin-right: 25px; 
+    margin-left: 25px;
+    margin-bottom: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+
+    
+}
+
+/*submit button - not setup - leave it*/
+.button4{
+    margin-right: 25px; 
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: auto;
+    align-self: center;
+    justify-self: center;
+}
+
+/*abilty for user to have a dark theme*/
+.dark-mode {
+    margin-right: 25px;
+    background-color: black;
+    color: white;
+}
+
+/* 3 teams box container*/ 
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Mercedes team box*/
+.box1{
+    width: 500px;
+    height: 500px;
+    background-color: #00D2BE;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+/*Red Bull team box*/
+.box2{
+    width: 500px;
+    height: 500px;
+    background-color: #0600EF;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
+
+/*Ferrari team box*/
+.box3{
+    width: 500px;
+    height: 500px;
+    background-color: #A6051A;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+@media (max-width: 767px ){
+    .container1 {
+        flex-wrap: wrap;
+    }
+
+    .box1{
+        width: 100%;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 15px;
+     }
+
+     .box2{
+        width: 100%;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 15px;
+     }
+
+     .box3{
+        width: 100%;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 15px;
+     }
+}
+
+/*home button returning to beginning*/
+.Home_icon{
+    background-color: transparent;
+    border: 0;
+    justify-self: center;
+    border: transparent;
+}
+
+/*mercedes button*/
+.box1_btn{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: transparent;
+}
+
+/*red bull button*/
+.box2_btn{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: transparent;
+}
+
+/*ferrari button*/
+.box3_btn{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: transparent;
+}
+
+/*mercedes team header color*/
+.mercedes_head{
+    background-color: #00D2BE;
+
+}
+
+/*red bull team header color*/
+.red_bull_head{
+    background-color: #0600EF;
+
+}
+
+/*ferrari team header color*/
+.ferrari_head{
+    background-color: #A6051A;
+
+}
+
+#back {
+    background-color: aliceblue;
+    border-radius: 100px;
+    margin-right: 25px; 
+    margin-top: 25px;
+    margin-left: 25px;
+    padding: 10px;
+    border: transparent;
+
+}
+
+/*mercedes logo*/
+.merc_trans {
+    transition: ease-in-out .5s;
+}
+
+/*mercedes logo hover state*/
+.merc_trans:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+/*red bull logo*/
+.red_bull_trans {
+    transition: ease-in-out .5s;
+}
+
+/*red bull logo hover state*/
+.red_bull_trans:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+/*ferrari logo*/
+.ferrari_trans {
+    transition: ease-in-out .5s;
+}
+
+/*ferrari logo hover state*/
+.ferrari_trans:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+/*F1 logo*/
+.f1_logo{
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    background-color: transparent;
+    border: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    transition: ease-in-out .5s;
+}
+
+/*F1 logo hover state*/
+.f1_logo:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+/*map of australian GP*/
+.f1_australia{
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+     
+}
+
+/*box around map of australia*/
+.box4{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    color: black;
+    align-self: center;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    object-fit: contain;
+
+}
+
+/*left choice option*/
+.button5{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 5px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    float: left;
+}
+
+/*right choice option*/
+.button6{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 25px;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    float: right;
+}
+
+/*champion images box*/
+.box9{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    background-color: white;
+    color: black;
+    align-self: center;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    object-fit: contain;
+    display: flex;
+}
+
+/*champion image box*/
+.box10{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    background-color: white;
+    color: black;
+    align-self: center;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    object-fit: contain;
+    display: flex;
+}
